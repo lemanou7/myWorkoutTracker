@@ -1,30 +1,29 @@
 # WORKOUT TRACKER
 
-## Subject: Express.js: Note Taker
+For this assignment, I'll be creating a workout tracker. I have already been provided with the front end code in a `Develop` folder. This assignment will require me to create Mongo database with a Mongoose schema and handle routes with Express.
 
-## Description:
-This assignment is to modify a given starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+## User Story
 
-The application’s front end has already been provided. Our job is to build the back end, connect the two, and then deploy the entire application to Heroku.
+* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
+## Business Context
+
+A consumer will reach their fitness goals more quickly when they track their workout progress.
 
 ## Acceptance Criteria
 
-```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-```
+When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+
+The user should be able to:
+
+  * Add exercises to the most recent workout plan.
+
+  * Add new exercises to a new workout plan.
+
+  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
+
+  * View the total duration of each workout from the past seven workouts on the `stats` page.
+
 
 ### See Application
 [Click Here](https://mynotetakerjs.herokuapp.com/) to see the application.
@@ -66,21 +65,21 @@ You can use any code editor of user choise, i use Vs Code because it is open sou
 
 ### See Application Screenshots
 
-5. Full App Main Page
+1. Full App Main Page
 
-![Home Page](./public/assets/images/indexPage.PNG)
+![Home Page](./public/images/mainpage.PNG)
 
-5. Adding Note
+2. Adding Workouts
 
-![Home Page](./public/assets/images/image-1.PNG)
+![Home Page](./public/images/image-1.PNG)
 
-5. Notes Added
+3. Showing Workout (Bench Press) Totals
 
-![Home Page](./public/assets/images/image-2.PNG)
+![Home Page](./public/images/shwingTotals.PNG)
 
-5. Delecting Notes
+4. Showing Workout (Running) Totals
 
-![Home Page](./public/assets/images/image-3.PNG)
+![Home Page](./public/images/runningWorkoutresult.PNG)
 
 
 <!-- CONTACT -->
