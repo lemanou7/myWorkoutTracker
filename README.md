@@ -81,6 +81,10 @@ You can use any code editor of user choise, i use Vs Code because it is open sou
 
 ![Home Page](./public/images/runningWorkoutresult.PNG)
 
+4. Showing stats
+
+![Home Page](./public/images/stats.PNG)
+
 
 <!-- CONTACT -->
 ## Contact
