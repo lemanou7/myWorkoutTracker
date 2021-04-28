@@ -75,13 +75,13 @@ You can use any code editor of user choise, i use Vs Code because it is open sou
 
 3. Showing Workout (Bench Press) Totals
 
-![Home Page](./public/images/shwingTotals.PNG)
+![Home Page](./public/images/showingTotals.PNG)
 
 4. Showing Workout (Running) Totals
 
 ![Home Page](./public/images/runningWorkoutresult.PNG)
 
-4. Showing stats
+5. Showing stats
 
 ![Home Page](./public/images/stats.PNG)
 
