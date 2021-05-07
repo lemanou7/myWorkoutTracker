@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/lemanou7/myWorkoutTracker/issues"
   },
-  "homepage": "https://github.com/lemanou7/myWorkoutTracker#readme"
+  "homepage": "https://github.com/lemanou7/myWorkoutTracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
